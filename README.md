@@ -7,6 +7,12 @@ Rust's ecosystem has excellent gRPC *libraries* (`tonic`) but nothing
 filling `grpcurl`'s specific job of poking an arbitrary running service
 from a terminal without writing a client first.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
